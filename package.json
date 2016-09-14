@@ -1,0 +1,12 @@
+{
+  "name": "node-crypto-experiment",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover tape test/**/*.js test/*.js | tap-spec"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
